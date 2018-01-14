@@ -28,17 +28,15 @@
     
     Add `PYTHON_HOME` in new variable and set variable value to `C:\..\Pyhton36`
     
-    Edit variable value in `Path`: `;%PYTHON_HOME%;%PYTHON_HOME%\Scripts\
+    Edit variable value in `Path`: `;%PYTHON_HOME%;%PYTHON_HOME%\Scripts\`
     
-### Package Installation via pip
-
-    * Packages:
+  * Package Installation via pip
+        
+    - Common Packages: **numpy**, **scipy**, **matplotlib**, **ipython**, **jupyter**, **pandas**, **sympy**, **nose**
     
-    **numpy**, **scipy**, **matplotlib**, **ipython**, **jupyter**, **pandas**, **sympy**, **nose**
+       _cmd_
     
-    _cmd_
-    
-    `python -m pip install --user xxxx`
+             `python -m pip install --user xxxx`
     
     
     
