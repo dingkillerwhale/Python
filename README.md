@@ -6,9 +6,9 @@
   
   In Windows Command Window,
   
-  `cd C:\...\Python36` // where get-pip.py is
+  `cd C:\...\Python36` change directory to where get-pip.py is
   
-  `python get-pip.py`  // install pip
+  `python get-pip.py`  install pip
   
   * verify a successful installation by opening a command prompt window and navigating to your Python installation's script directory (default is `C:\Python36\Scripts`). Type `pip frezze` from this location to launch the Python interpreter.
   
