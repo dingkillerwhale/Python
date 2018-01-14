@@ -34,9 +34,9 @@
         
     - Common Packages: **numpy**, **scipy**, **matplotlib**, **ipython**, **jupyter**, **pandas**, **sympy**, **nose**
     
-       _cmd_
+    _cmd_
     
-             `python -m pip install --user xxxx`
+    `python -m pip install --user xxxx`
     
     
     
