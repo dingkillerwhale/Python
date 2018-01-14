@@ -30,3 +30,19 @@
     
     Edit variable value in `Path`: `;%PYTHON_HOME%;%PYTHON_HOME%\Scripts\
     
+### Package Installation via pip
+
+    * Packages:
+    
+    **numpy**, **scipy**, **matplotlib**, **ipython**, **jupyter**, **pandas**, **sympy**, **nose**
+    
+    _cmd_
+    
+    `python -m pip install --user xxxx`
+    
+    
+    
+    
+    
+    
+    
