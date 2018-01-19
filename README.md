@@ -40,7 +40,14 @@
     
     
     
-    
+## Python Notes
+
+  * Documentation Strings
+  
+    * The first line should always be a short, concise summary of the object's purpose. Should not explicitly state the object's name or type. This line should begin with a capital letter and end with a period
+    * More than one line in documentation string. The second line should be blank, visually separating the summary from the rest of the description. The following lines should be one or more paragraphs describing the object's calling conventions, its side effects, etc.
+    * The first non-blank line after the first line of the string detemines the amount of indentation for the entire documentation string.
+  
     
     
     
