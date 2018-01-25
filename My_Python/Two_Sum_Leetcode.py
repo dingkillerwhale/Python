@@ -1,4 +1,4 @@
-def twoSum(self, nums, target):
+def twoSum(nums, target):
         """
         :type nums: List[int]
         :type target: int
@@ -14,10 +14,22 @@ def twoSum(self, nums, target):
         '''
 
         # Second trial - beat 57.53%
+        '''
         dict_nums = {nums[x]:x for x in range(len(nums))}
         for num in range(len(nums)):
             diff = target - nums[num]
             if diff in dict_nums and num != dict_nums[diff]:
                 return [num, dict_nums[diff]]
+        return False
+        '''
+
+        # Sample
+        
+        diff = {}
+        for ind, num in enumerate(nums):
+                if target-num in diff:
+                    return [diff[target-num],ind]
+                diff[num] = ind
+                print(diff)
         return False
 
