@@ -30,6 +30,5 @@ def twoSum(nums, target):
                 if target-num in diff:
                     return [diff[target-num],ind]
                 diff[num] = ind
-                print(diff)
         return False
 
